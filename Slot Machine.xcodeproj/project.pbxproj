@@ -26,6 +26,7 @@
 		8C16EDDD248C95A400AEE8FE /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C16EDD5248C95A400AEE8FE /* spin.mp3 */; };
 		8C16EDDF248C961D00AEE8FE /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16EDDE248C961D00AEE8FE /* ReelView.swift */; };
 		8C16EDE1248C9E4300AEE8FE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16EDE0248C9E4300AEE8FE /* InfoView.swift */; };
+		8C3ACCAB248D1FDB007C5B0B /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ACCAA248D1FDB007C5B0B /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		8C16EDD5248C95A400AEE8FE /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spin.mp3; path = ../../../../Resources/Sounds/spin.mp3; sourceTree = "<group>"; };
 		8C16EDDE248C961D00AEE8FE /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
 		8C16EDE0248C9E4300AEE8FE /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		8C3ACCAA248D1FDB007C5B0B /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				8C16EDC6248C8FAF00AEE8FE /* Modifiers.swift */,
 				8C16EDC8248C92AD00AEE8FE /* Extensions.swift */,
+				8C3ACCAA248D1FDB007C5B0B /* PlaySound.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C16EDE1248C9E4300AEE8FE /* InfoView.swift in Sources */,
+				8C3ACCAB248D1FDB007C5B0B /* PlaySound.swift in Sources */,
 				8C16ED9E248C7E2700AEE8FE /* AppDelegate.swift in Sources */,
 				8C16EDC9248C92AD00AEE8FE /* Extensions.swift in Sources */,
 				8C16EDC5248C8F6200AEE8FE /* LogoView.swift in Sources */,
